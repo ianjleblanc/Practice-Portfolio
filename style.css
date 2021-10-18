@@ -1,0 +1,80 @@
+.btn {
+    padding: 40px;
+    margin: 40px;
+}
+
+body {
+    margin:0;
+}
+
+section {
+    margin: 20px;
+}
+section h3 {
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+    margin-bottom: 40px;
+
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top:20px;
+}
+
+header nav {
+    display: flex;
+    
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+img {
+    margin-left: 40px;
+}
+
+@media all and (min-width:600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    header h1 {
+        margin:14px 0;
+        padding: 0;
+    }
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    header nav {
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+    header nav ul li a:hover {
+        color: turquoise;
+    }
+}
